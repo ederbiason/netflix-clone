@@ -67,6 +67,12 @@ export default () => {
           <MovieRow key={key} title={item.title} items={item.items}/>
         ))}
       </section>
+
+      <footer>
+        Do with <span role='img' aria-label='heart'>❤️</span> by Eder Biason <br/>
+        Image rights for Netflix <br/>
+        Data taken from the site Themoviedb.org
+      </footer>
     </div>
   );
 }
