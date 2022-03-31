@@ -73,6 +73,12 @@ export default () => {
         Image rights for Netflix <br/>
         Data taken from the site Themoviedb.org
       </footer>
+
+      {movielist.length <= 0 &&
+      <div className="loading">
+        <img src="https://c.tenor.com/DQyztbEmqnYAAAAC/netflix-loading.gif" alt="loading"/>
+      </div>
+      }
     </div>
   );
 }
